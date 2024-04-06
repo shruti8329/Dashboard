@@ -1,4 +1,4 @@
-package demo.dashboard.demo.model;
+package demo.dashboard.demo.data.BatchAPI;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

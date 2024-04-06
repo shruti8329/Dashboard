@@ -7,7 +7,7 @@ import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import demo.dashboard.demo.model.Data;
+import demo.dashboard.demo.data.BatchAPI.Data;
 
 @Component
 public class DataWriter implements ItemWriter<Data> {

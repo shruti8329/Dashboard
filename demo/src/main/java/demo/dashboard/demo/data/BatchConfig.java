@@ -8,7 +8,8 @@ import org.springframework.batch.core.configuration.annotation.StepBuilderFactor
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import demo.dashboard.demo.model.Data;
+
+import demo.dashboard.demo.data.BatchAPI.Data;
 
 @Configuration
 @EnableBatchProcessing
