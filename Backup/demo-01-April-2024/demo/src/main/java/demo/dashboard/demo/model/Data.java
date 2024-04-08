@@ -1,10 +1,11 @@
-package demo.dashboard.demo.data.BatchAPI;
+package demo.dashboard.demo.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 // class Data is for output the data
+
 @Entity
 public class Data {
     @Id
@@ -20,14 +21,6 @@ public class Data {
     private String topic;
     private String region;
     private String city;
-
-    public Long getDataId() {
-        return dataId;
-    }
-
-    public void setDataId(Long dataId) {
-        this.dataId = dataId;
-    }
 
     public String getIntensity() {
         return intensity;

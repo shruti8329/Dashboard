@@ -4,7 +4,7 @@ package demo.dashboard.demo.data;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.stereotype.Component;
 
-import demo.dashboard.demo.data.BatchAPI.Data;
+import demo.dashboard.demo.model.Data;
 
 @Component
 public class DataProcessor implements ItemProcessor<DataVisual, Data> {

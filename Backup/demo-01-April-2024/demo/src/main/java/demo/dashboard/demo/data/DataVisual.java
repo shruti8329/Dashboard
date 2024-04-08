@@ -1,33 +1,16 @@
-package demo.dashboard.demo.data.BatchAPI;
+package demo.dashboard.demo.data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
-// class Data is for output the data
-@Entity
-public class Data {
-    @Id
-    @GeneratedValue
-    public Long dataId;
-
+//datavisual is for to take input data
+public class DataVisual {
     private String intensity;
     private String likelihood;
     private String relevance;
-    private String startYear;
-    private String endYear;
+    private String start_year;
+    private String end_year;
     private String country;
     private String topic;
     private String region;
     private String city;
-
-    public Long getDataId() {
-        return dataId;
-    }
-
-    public void setDataId(Long dataId) {
-        this.dataId = dataId;
-    }
 
     public String getIntensity() {
         return intensity;
@@ -53,20 +36,20 @@ public class Data {
         this.relevance = relevance;
     }
 
-    public String getStartYear() {
-        return startYear;
+    public String getStart_year() {
+        return start_year;
     }
 
-    public void setStartYear(String startYear) {
-        this.startYear = startYear;
+    public void setStart_year(String start_year) {
+        this.start_year = start_year;
     }
 
-    public String getEndYear() {
-        return endYear;
+    public String getEnd_year() {
+        return end_year;
     }
 
-    public void setEndYear(String endYear) {
-        this.endYear = endYear;
+    public void setEnd_year(String end_year) {
+        this.end_year = end_year;
     }
 
     public String getCountry() {
